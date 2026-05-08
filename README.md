@@ -2,7 +2,7 @@
 
 ## Overview
 
-VisionAI leverages cutting-edge technology to offer real-time image recognition capabilities through MJPEG streams. It integrates seamlessly with Telegram to deliver instantaneous notifications and images when specific objects are detected, focusing heavily on person detection.
+AIImageInsight_bot leverages cutting-edge technology to offer real-time image recognition capabilities through MJPEG streams. It integrates seamlessly with Telegram to deliver instantaneous notifications and images when specific objects are detected, focusing heavily on person detection.
 
 ## Features
 
