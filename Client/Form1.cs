@@ -27,7 +27,7 @@ namespace demoMJPEGCamera
     {
         private MjpegDecoder mjpeg;
 
-        TelegramBotClient botClient = new TelegramBotClient("7195745339:AAEoU9_5RzpuTsqRCtedm7oH0eDe4Y9Q7uo");
+        TelegramBotClient botClient = new TelegramBotClient(Environment.GetEnvironmentVariable("TELEGRAM_BOT_TOKEN"));
         List<long> listaChatsId = new List<long>();
         Queue<Bitmap> queue = new Queue<Bitmap> ();
         private readonly object lockObject = new object();
